@@ -11,7 +11,7 @@ $img->resize(200, null, function (\Intervention\Image\Constraint $constraint) {
     $constraint->aspectRatio();
 });
 
-$img->text('Watermark', $img->getWidth() - 10, $img->getHeight() - 10, function (\Intervention\Image\AbstractFont $font) {
+$img->text('Весна близко', $img->getWidth() - 10, $img->getHeight() - 10, function (\Intervention\Image\AbstractFont $font) {
     $font->size(24);
     $font->file('verdana.ttf');
     $font->color([2555, 255, 255, 0.3]);
